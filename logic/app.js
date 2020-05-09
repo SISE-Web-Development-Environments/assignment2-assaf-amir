@@ -781,7 +781,7 @@ function BuildAndStart()
 	lastTimeStamp = new Date();
 	timeRemains = totalGameTime;
 	
-	//music.play();
+	music.play();
 
 	interval = setInterval(mainLoop, 150);
 }

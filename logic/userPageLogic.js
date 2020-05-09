@@ -13,6 +13,7 @@ function showDiv(arg)
         document.getElementById("gameState").hidden = true;
 
         document.getElementById(arg).hidden = false;
+        music.pause();
         window.clearInterval(interval);
     }
 }
